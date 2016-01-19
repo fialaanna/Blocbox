@@ -70,6 +70,12 @@ html, body{
    }
  }
 
+@media tv (min-width: 1080px) {
+   .container {
+     width: 1000px;
+   }
+ }
+
  /* Header */
 header {
    color:FFFFFF;
