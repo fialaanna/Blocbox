@@ -69,6 +69,11 @@ html, body{
      width: 1170px;
    }
  }
+@media tv (min-width: 700px) {
+   .container {
+     width: 680px;
+   }
+ }
 
  /* Header */
 header {
