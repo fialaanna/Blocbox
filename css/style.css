@@ -246,30 +246,37 @@ header .hero {
    font-style:italic;
  }
 
-
-
- /* TESTIMONIALS */
  .testimonials {
-    padding:4em 0;
-   text-align: center;
+    margin: 0px 8% 0px 8%;
+    padding: 4em 0;
+    text-align: center;
+    display: inline-block;
   }
+  
+  .testimonials ul li.offset {
+    margin-top: 20px;
+  }
+  
   .testimonials h2 {
-    color:#3498DB;
+    color: #3498DB;
   }
+  
   .testimonials ul li {
     list-style-type: none;
   }
+  
+  /* TESTIMONIALS */
   .testimonials blockquote {
-    color:#FFFFFF;
+    color: #FFFFFF;
     text-align: left;
     font-style: italic;
-    background:#34495E;
+    background: #34495E;
     position: relative;
-    padding:30px;
-    width:auto;
-    margin:0;
+    padding: 30px;
+    width: auto;
+    margin: 0;
   }
-
+  
   .testimonials blockquote:after {
     top: 100%;
     left: 13%;
@@ -283,21 +290,24 @@ header .hero {
     border-width: 10px;
     margin-left: -10px;
   }
- .testimonials img {
+  
+  .testimonials img {
     height: 65px;
     width: 65px;
-    border-radius:50%;
+    border-radius: 50%;
     float: left;
     display: inline-block;
-    margin:20px 10px 0 0;
+    margin: 20px 10px 0 0;
   }
+  
   .testimonials p.name {
     float: left;
     display: inline-block;
     text-align: left;
-    font-size:13px;
+    font-size: 13px;
     margin-top: 30px;
   }
+
 
 /* FOOTER */
  footer {
